@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Willkommen on Manus Quintett</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Willkommen on Manus Quintett</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Konzerte</title>
+				<link>http://localhost:1313/konzerte/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/konzerte/</guid>
+				<description>&lt;p&gt;Hier findet ihr unsere Auftritte.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Über uns</title>
+				<link>http://localhost:1313/ueber-uns/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/ueber-uns/</guid>
+				<description>&lt;p&gt;Hier stellen wir uns vor.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

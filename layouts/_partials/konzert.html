@@ -1,0 +1,9 @@
+<article class="konzert">
+  <h3>{{ .titel }}</h3>
+  <p>
+    <time datetime="{{ .datum }}">{{ time.Format "02.01.2006" .datum }}</time>{{ with .uhrzeit }}, {{ . }} Uhr{{ end }}<br>
+    {{ .ort }}
+  </p>
+  {{ with .programm }}<p>{{ . }}</p>{{ end }}
+  {{ with .link }}<p><a href="{{ . }}">Tickets und Infos</a></p>{{ end }}
+</article>

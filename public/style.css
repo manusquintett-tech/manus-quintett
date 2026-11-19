@@ -1,0 +1,11 @@
+:root { --bg: #fff; --fg: #1b1b1b; --accent: #7a2e2e; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #161616; --fg: #eaeaea; --accent: #d98a8a; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.6 system-ui, sans-serif; }
+header, main, footer { max-width: 42rem; margin: 0 auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+nav a { margin-left: 1rem; }
+a { color: var(--accent); }
+.konzert { border-left: 3px solid var(--accent); padding-left: 1rem; margin: 1.5rem 0; }
+.konzert h3, .konzert p { margin: .25rem 0; }

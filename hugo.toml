@@ -1,0 +1,19 @@
+baseURL = 'https://manus-quintett.de/'
+locale = 'de'
+defaultContentLanguage = 'de'
+title = 'Manus Quintett'
+disableKinds = ['taxonomy', 'term']
+
+[menus]
+  [[menus.main]]
+    name = 'Start'
+    pageRef = '/'
+    weight = 1
+  [[menus.main]]
+    name = 'Über uns'
+    pageRef = '/ueber-uns'
+    weight = 2
+  [[menus.main]]
+    name = 'Konzerte'
+    pageRef = '/konzerte'
+    weight = 3  

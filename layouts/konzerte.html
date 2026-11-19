@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $heute := now.Format "2006-01-02" }}
+
+  <h2>Kommende Konzerte</h2>
+  {{ range sort (where hugo.Data.konzerte "datum" "ge" $heute) "datum" }}
+    {{ partial "konzert.html" . }}
+  {{ else }}
+    <p>Aktuell sind keine Konzerte geplant.</p>
+  {{ end }}
+
+  <h2>Vergangene Konzerte</h2>
+  {{ range sort (where hugo.Data.konzerte "datum" "lt" $heute) "datum" "desc" }}
+    {{ partial "konzert.html" . }}
+  {{ end }}
+{{ end }}
